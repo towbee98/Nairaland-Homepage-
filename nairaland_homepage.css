@@ -1,0 +1,218 @@
+body {
+    background-color:#FCFCF0;
+}
+/* --this is for the search button */
+span > button{
+    width: 55px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: white;
+    border:thin;
+    margin-bottom: 1px;
+    padding-bottom: 2px;
+
+}
+span > button:hover{
+    background-color:#E8ECE0 ;
+}
+/* --this should be for the links-- */
+a:link{
+    text-decoration: none;
+    font-weight: bold;
+    color:#181860;
+    font-size: medium;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+a:visited{
+    text-decoration: none;
+    font-weight: bold;
+    color:#671848;
+}
+/*the first class*/
+.top-menu{
+    border-radius: 12px;
+    margin: 1px 150px 0.4px 150px;
+    background-color:#F6F6EC;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: solid;
+    border-width: thin ;
+    line-height: 1;
+    font-size: 0.9rem;
+    text-align: center;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-menu h1, .top-menu p[class=profile ], .top-menu p[class=Stats]{
+    margin-top: 0.2rem;
+    margin-bottom: 0rem;
+}
+.top-menu a{
+    font-weight: 100;
+}
+.top-menu h1  img:hover{
+    text-decoration: underline;
+}
+.top-menu .Stats{
+    text-align: center;
+}
+.top-menu  .Search {
+    text-align: center;
+    word-spacing: normal;
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 0.4rem;
+}
+.top-menu  #Searchbar{
+    border-radius: 10px;
+    resize:none;
+    width: 500px;
+    height: 25px;
+    border:black;
+    margin-bottom: 1px;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/*--Second Class--*/
+.forums{
+    border-radius: 12px;
+    margin: 6px 150px 1px 150px;
+    padding-left: 0rem;
+    padding-right: 0px;
+    line-height:1;
+    border-style: solid;
+    border-width: thin;
+    border-collapse:separate;
+    border-spacing: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.forums th h3 {
+    color: #220000;
+    margin: 0.5rem 0rem; 
+}
+.forums .General p, .Technology p, .Entertainment p{
+    margin: 0.7rem 0rem;
+}
+
+ .forums .General, .Entertainment, th{
+    border-bottom: 1px solid black;
+    padding-top: 0rem;
+ }   
+.forums .General, .Technology{
+    background-color: #F6F6EC;
+}
+
+.forums th, .Entertainment{
+    background-color: #E8ECE0;
+}
+.forums h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+     
+}
+.forums .General, .Entertainment, .Technology{
+    padding-left: 1rem;
+}
+
+
+
+/*--third --*/
+.advertisement{
+    border-collapse: separate;
+    border-spacing: 5px;
+    margin: 6px 170px 1px 160px;
+}
+.advertisement td img{
+    border-style: solid;
+    border-width: thin;
+    border-color: grey ;
+    border-radius: 0.5rem;
+}
+
+/* --fourth class-- */
+.Front-Page{
+    border-radius: 12px;
+    margin: 6px 10px 1px 150px;
+    padding-top: 1px;
+    padding-left: 0rem;
+    padding-right: 0px;
+    line-height:0.5;
+    border-style: solid;
+    border-width: thin;
+    border-collapse:separate;
+    border-spacing: 0px;
+    width: 950px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+ .Front-Page .social-media, .headlines{
+    border-bottom: 1px solid black;
+    padding-top: -5rem;
+}
+.Front-Page .social-media{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: small;
+    font-weight: bolder;
+}
+.Front-Page .social-media, .headlines{
+    padding-left: 1rem;
+}
+.Front-Page .headlines{
+    background-color: #F6F6EC;
+}
+.Front-Page .social-media, .pages{
+    background-color: #E8ECE0;
+}
+/*--theSixth class--*/
+.Users-Stats{
+    border-radius: 12px;
+    margin: 1px 150px 0.4px 150px;
+    background-color: #F6F6EC;
+    padding-top: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: solid;
+    border-width: thin ;
+    line-height: 0.5;
+    font-size: 0.9rem;
+    text-align: center;
+}
+/*--thSeventh class--*/
+.footer{
+    border-radius: 12px;
+    margin: 1px 150px 0.4px 150px;
+    background-color: #F6F6EC;
+    padding-top: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: solid;
+    border-width: thin ;
+    line-height: 0.5;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 100;
+}
+.footer  .Search {
+    text-align: center;
+    word-spacing: normal;
+    display: flex;
+}
+.footer  #Searchbar{
+    border-radius: 10px;
+    resize:none;
+    width: 500px;
+    height: 25px;
+    border:black;
+    margin-bottom: 1px;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
